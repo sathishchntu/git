@@ -10,6 +10,13 @@ public class EmployeeDto {
 
     private  int salary;
 
+    public EmployeeDto(int id, String name, String department, int salary) {
+        this.id = id;
+        this.name = name;
+        this.department = department;
+        this.salary = salary;
+    }
+
     public int getId() {
         return id;
     }
