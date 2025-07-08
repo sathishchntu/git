@@ -10,9 +10,8 @@ public class EmployeeDto {
 
     private  int salary;
 
-    public EmployeeDto(int id, String name) {
+    public EmployeeDto(int id) {
         this.id = id;
-        this.name = name;
     }
 
     public EmployeeDto(int id, String name, String department, int salary) {
